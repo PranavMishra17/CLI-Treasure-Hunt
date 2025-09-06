@@ -1,0 +1,7 @@
+[Sat Sep 06 10:20:02 2025] [error] [client 192.168.1.18] File does not exist: /var/www/html/favicon.ico
+[Sat Sep 06 10:20:15 2025] [error] [client 10.0.0.5] script '/var/www/html/api/index.php' not found or unable to stat
+[Sat Sep 06 10:20:18 2025] [error] [client 192.168.1.10] PHP Notice:  Undefined variable: user in /var/www/html/dashboard.php on line 12
+[Sat Sep 06 10:20:22 2025] [error] [client 172.17.0.1] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /var/www/html/db.php on line 5
+[Sat Sep 06 10:20:35 2025] [error] [client 127.0.0.1] [authz_core:error] [pid 12345] AH01630: client denied by server configuration: /var/www/html/admin
+[Sat Sep 06 10:20:50 2025] [error] [client 192.168.1.18] [proxy_http:error] [pid 12346] (70007)The timeout specified has expired: AH01102: error reading status line from remote server backend.example.com:8080
+[Sat Sep 06 10:20:50 2025] [error] [client 192.168.1.18] AH00898: Error reading from remote server returned by /api/status

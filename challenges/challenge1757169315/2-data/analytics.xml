@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<analytics>
+  <report name="daily_traffic" date="2025-09-06">
+    <pageviews>12345</pageviews>
+    <unique_visitors>6789</unique_visitors>
+    <bounce_rate>0.45</bounce_rate>
+    <avg_session_duration>180</avg_session_duration>
+  </report>
+  <report name="sales" date="2025-09-06">
+    <total_sales>100</total_sales>
+    <total_revenue>5000</total_revenue>
+    <avg_order_value>50</avg_order_value>
+  </report>
+</analytics>

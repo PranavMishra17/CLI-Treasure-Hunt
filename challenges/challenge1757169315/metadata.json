@@ -1,0 +1,174 @@
+{
+  "challenge_metadata": {
+    "challenge_id": "challenge1757169315",
+    "created_timestamp": "1757169315",
+    "final_answer": "WAVE-CODE-SCAN-HASH",
+    "creation_method": "AI-Agent-Orchestrated",
+    "difficulty_level": "intermediate",
+    "estimated_solve_time": "30-60 minutes",
+    "creator_agent": "main-organizer",
+    "challenge_version": "1.0"
+  },
+  
+  "target_words": {
+    "word1": {
+      "value": "WAVE",
+      "position": 1,
+      "challenge_type": "logs",
+      "domain": "System Administration & Log Forensics"
+    },
+    "word2": {
+      "value": "CODE", 
+      "position": 2,
+      "challenge_type": "data",
+      "domain": "Business Intelligence & Data Analysis"
+    },
+    "word3": {
+      "value": "SCAN",
+      "position": 3,
+      "challenge_type": "code", 
+      "domain": "Software Security & Code Analysis"
+    },
+    "word4": {
+      "value": "HASH",
+      "position": 4,
+      "challenge_type": "network",
+      "domain": "Network Security & Protocol Analysis"
+    }
+  },
+
+  "challenge_assignments": {
+    "logs_challenge": {
+      "agent": "log-challenge-agent",
+      "subtopic": "useragent-morse",
+      "target_word": "WAVE",
+      "folder": "1-logs",
+      "status": "completed",
+      "primary_file": "access.log",
+      "solution_method": "Find the user agent with morse code and decode it."
+    },
+    "data_challenge": {
+      "agent": "data-challenge-agent", 
+      "subtopic": "config-comment-acrostic",
+      "target_word": "CODE",
+      "folder": "2-data",
+      "status": "completed",
+      "primary_file": "app.conf",
+      "solution_method": "Read the first letter of each comment in the config file."
+    },
+    "images_challenge": {
+      "agent": "image-challenge-agent",
+      "subtopic": "skipped",
+      "target_word": "KEYS",
+      "folder": "3-images", 
+      "status": "skipped",
+      "primary_file": "skipped",
+      "solution_method": "skipped"
+    },
+    "code_challenge": {
+      "agent": "code-challenge-agent",
+      "subtopic": "constant-obfuscation",
+      "target_word": "SCAN",
+      "folder": "4-code",
+      "status": "completed", 
+      "primary_file": "utils.py",
+      "solution_method": "Convert the array of numbers in the MAGIC_NUMBERS constant from ASCII to text."
+    },
+    "network_challenge": {
+      "agent": "network-challenge-agent",
+      "subtopic": "network-config-hiding",
+      "target_word": "HASH",
+      "folder": "5-network",
+      "status": "completed",
+      "primary_file": "firewall.conf", 
+      "solution_method": "Read the first letter of each comment in the config file."
+    }
+  },
+
+  "solution_overview": {
+    "step1": {
+      "challenge": "Log Analysis",
+      "technique": "useragent-morse",
+      "brief_solution": "Find the user agent with morse code in `access.log` and decode it."
+    },
+    "step2": {
+      "challenge": "Data Mining", 
+      "technique": "config-comment-acrostic",
+      "brief_solution": "Read the first letter of each comment in `app.conf`."
+    },
+    "step3": {
+      "challenge": "Code Analysis",
+      "technique": "constant-obfuscation",
+      "brief_solution": "Convert the array of numbers in the MAGIC_NUMBERS constant in `utils.py` from ASCII to text."
+    },
+    "step4": {
+      "challenge": "Network Investigation",
+      "technique": "network-config-hiding",
+      "brief_solution": "Read the first letter of each comment in `firewall.conf`."
+    }
+  },
+
+  "quality_metrics": {
+    "word_validation": {
+      "all_words_4_letters": true,
+      "all_words_english": true,
+      "no_duplicate_words": true,
+      "no_duplicate_subtopics": true
+    },
+    "challenge_validation": {
+      "all_challenges_completed": true,
+      "realistic_clutter_generated": true,
+      "solutions_require_analysis": true,
+      "tools_are_standard_cli": true
+    },
+    "educational_value": {
+      "develops_forensic_skills": true,
+      "teaches_investigation_methodology": true,
+      "builds_cli_proficiency": true,
+      "applicable_to_real_scenarios": true
+    }
+  },
+
+  "required_skills": [
+    "Log analysis and pattern recognition",
+    "Data parsing and structured analysis", 
+    "Code archaeology and reverse engineering",
+    "Network protocol investigation",
+    "CLI tool proficiency",
+    "Systematic investigation methodology"
+  ],
+
+  "tools_utilized": [
+    "grep", "awk", "sed", "cut", "sort", "uniq",
+    "jq", "csvkit", "sqlite3", "python3",
+    "dig", "curl", "openssl",
+    "base64"
+  ],
+
+  "professional_applications": {
+    "cybersecurity": "SOC analyst training, incident response",
+    "digital_forensics": "Evidence analysis, investigation methodology",
+    "business_intelligence": "Data mining, pattern recognition",
+    "network_security": "Protocol analysis, threat hunting"
+  },
+
+  "file_structure": {
+    "directories_created": [
+      "1-logs", "2-data", "4-code", "5-network"
+    ],
+    "clutter_subdirectories": [
+      "1-logs/clutter", "2-data/clutter", 
+      "4-code/clutter", "5-network/clutter"
+    ],
+    "support_files": [
+      "hints.md", "verify-solution.bat", "metadata.json"
+    ]
+  },
+
+  "creation_notes": {
+    "organizer_comments": "Image challenge was skipped.",
+    "challenge_complexity": "Designed for intermediate digital investigators",
+    "educational_focus": "Real-world forensic investigation techniques",
+    "tool_requirements": "Standard CLI utilities only - no exotic software needed"
+  }
+}

@@ -1,0 +1,11 @@
+timestamp,level,message
+2025-09-06 10:20:01,INFO,User logged in
+2025-09-06 10:20:02,ERROR,File not found
+2025-09-06 10:20:03,INFO,Data saved
+2025-09-06 10:20:04,WARN,Disk space is low
+2025-09-06 10:20:05,INFO,User logged out
+2025-09-06 10:20:06,INFO,User logged in
+2025-09-06 10:20:07,DEBUG,Checking cache
+2025-09-06 10:20:08,INFO,Data saved
+2025-09-06 10:20:09,INFO,User logged out
+2025-09-06 10:20:10,ERROR,Connection failed

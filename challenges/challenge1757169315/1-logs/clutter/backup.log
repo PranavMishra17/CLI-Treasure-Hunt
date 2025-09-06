@@ -1,0 +1,10 @@
+[2025-09-06 10:20:00] INFO: Starting backup...
+[2025-09-06 10:20:01] INFO: Backing up database...
+[2025-09-06 10:20:05] INFO: Database backup complete.
+[2025-09-06 10:20:05] INFO: Backing up files...
+[2025-09-06 10:20:10] INFO: File backup complete.
+[2025-09-06 10:20:10] INFO: Backup successful.
+[2025-09-06 10:20:10] INFO: Backup size: 1.2 GB
+[2025-09-06 10:20:10] INFO: Backup duration: 10 seconds
+[2025-09-06 10:20:10] INFO: Backup destination: /mnt/backups/daily/2025-09-06.tar.gz
+[2025-09-06 10:20:10] INFO: Backup complete.

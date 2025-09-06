@@ -1,0 +1,14 @@
+server:
+  host: 127.0.0.1
+  port: 8080
+
+database:
+  type: postgresql
+  host: localhost
+  port: 5432
+  user: admin
+  password: secret
+
+logging:
+  level: INFO
+  file: /var/log/app.log
