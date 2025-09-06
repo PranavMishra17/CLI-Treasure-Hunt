@@ -1,0 +1,182 @@
+{
+  "challenge_metadata_template": {
+    "challenge_id": "challenge001",
+    "created_timestamp": "2025-01-01T12:00:00Z",
+    "final_answer": "BEAR-CAVE-NEST-CULT-SENT",
+    "words": {
+      "word1": "BEAR",
+      "word2": "CAVE", 
+      "word3": "NEST",
+      "word4": "CULT",
+      "word5": "SENT"
+    },
+    "challenge_assignments": {
+      "logs": {
+        "agent": "log-challenge-agent",
+        "subtopic": "timestamp-encoding",
+        "target_word": "BEAR",
+        "folder": "1-logs",
+        "status": "completed"
+      },
+      "data": {
+        "agent": "data-challenge-agent", 
+        "subtopic": "json-nested-keys",
+        "target_word": "CAVE",
+        "folder": "2-data",
+        "status": "completed"
+      },
+      "images": {
+        "agent": "image-challenge-agent",
+        "subtopic": "ascii-art-logs", 
+        "target_word": "NEST",
+        "folder": "3-images",
+        "status": "completed"
+      },
+      "code": {
+        "agent": "code-challenge-agent",
+        "subtopic": "variable-cryptography",
+        "target_word": "CULT", 
+        "folder": "4-code",
+        "status": "completed"
+      },
+      "network": {
+        "agent": "network-challenge-agent",
+        "subtopic": "http-header-patterns",
+        "target_word": "SENT",
+        "folder": "5-network", 
+        "status": "completed"
+      }
+    },
+    "solution_overview": {
+      "step1": "Extract BEAR from log timestamps using ASCII conversion",
+      "step2": "Find CAVE from first letters of nested JSON keys",
+      "step3": "Read NEST from ASCII art in terminal output", 
+      "step4": "Decode CULT from variable name first letters",
+      "step5": "Extract SENT from HTTP header name pattern"
+    },
+    "difficulty_level": "medium",
+    "estimated_solve_time": "45-90 minutes",
+    "required_skills": ["log analysis", "data parsing", "pattern recognition", "text processing", "network forensics"]
+  },
+
+  "hint_template": {
+    "title": "CLI Treasure Hunt - Investigation Hints",
+    "introduction": "Welcome, Digital Detective! Your mission is to find 5 hidden four-letter words.",
+    "submission_format": "./verify-solution.sh WORD1-WORD2-WORD3-WORD4-WORD5", 
+    "hints": {
+      "step1": {
+        "title": "Time Tells Tales",
+        "hint": "System administrators leave breadcrumbs in their logs. Sometimes the when matters more than the what.",
+        "folder": "1-logs",
+        "technique_hint": "Numbers can represent more than just time..."
+      },
+      "step2": {
+        "title": "Data Points the Way", 
+        "hint": "Structured data has structure for a reason. Look for the organization within the organization.",
+        "folder": "2-data",
+        "technique_hint": "Hierarchies often spell out their secrets..."
+      },
+      "step3": {
+        "title": "Pictures Worth Thousands",
+        "hint": "Not all treasures are visible to the naked eye. Sometimes you need to look at the text differently.",
+        "folder": "3-images", 
+        "technique_hint": "Art forms can be found in the most technical places..."
+      },
+      "step4": {
+        "title": "Code Speaks Volumes",
+        "hint": "Developers hide messages in plain sight. The names they choose are rarely random.",
+        "folder": "4-code",
+        "technique_hint": "First impressions matter, especially in code..."
+      },
+      "step5": {
+        "title": "Network Knows All",
+        "hint": "Protocols carry more than just data. Headers can be quite revealing about intentions.",
+        "folder": "5-network",
+        "technique_hint": "Communication patterns often form readable sequences..."
+      }
+    },
+    "general_tips": [
+      "Each challenge requires 2-3 commands maximum to solve",
+      "Standard CLI tools are sufficient - no exotic software needed", 
+      "Look for patterns, anomalies, and hidden structures",
+      "Combine findings from multiple files if necessary",
+      "Document your process - it helps with complex investigations"
+    ]
+  },
+
+  "workflow_coordination": {
+    "phase1_initialization": {
+      "organizer_tasks": [
+        "Generate unique challenge ID",
+        "Create 5 random four-letter English words", 
+        "Create challenge branch",
+        "Initialize folder structure",
+        "Generate metadata template"
+      ],
+      "script": "./scripts/create-challenge.sh"
+    },
+    "phase2_agent_coordination": {
+      "organizer_tasks": [
+        "Assign subtopics to each challenge agent",
+        "Ensure no duplicate subtopics across challenges",
+        "Monitor agent progress and completion",
+        "Validate agent implementations"
+      ],
+      "agent_sequence": [
+        "log-challenge-agent -> 1-logs/",
+        "data-challenge-agent -> 2-data/", 
+        "image-challenge-agent -> 3-images/",
+        "code-challenge-agent -> 4-code/",
+        "network-challenge-agent -> 5-network/"
+      ]
+    },
+    "phase3_integration": {
+      "organizer_tasks": [
+        "Review all agent solution reports",
+        "Generate hints.md file",
+        "Create verification script with correct answer",
+        "Test complete solution path",
+        "Document metadata in main branch"
+      ],
+      "verification": "Test solution end-to-end before deployment"
+    },
+    "phase4_deployment": {
+      "deliverables": [
+        "Challenge branch with all puzzle files",
+        "hints.md with cryptic clues",
+        "verify-solution.sh with correct answer",
+        "player-template.md copied to challenge branch"
+      ],
+      "player_receives": [
+        "Challenge branch access",
+        "hints.md file only",
+        "player-template.md prompt",
+        "verify-solution.sh script"
+      ]
+    }
+  },
+
+  "quality_assurance": {
+    "challenge_validation": [
+      "Each word is exactly 4 letters and valid English",
+      "Each subtopic is correctly implemented", 
+      "Solution requires logical analysis, not guessing",
+      "Clutter data provides realistic challenge",
+      "All files look authentic and professional"
+    ],
+    "solution_testing": [
+      "Complete solution path documented",
+      "Solution achievable with standard CLI tools",
+      "Hints provide guidance without spoiling",
+      "Verification script works correctly",
+      "Estimated solve time reasonable (30-120 minutes)"
+    ],
+    "player_experience": [
+      "Clear submission instructions",
+      "Appropriate difficulty progression",
+      "Educational value in each challenge",
+      "Realistic forensic investigation scenarios",
+      "Satisfying 'aha!' moments when solved"
+    ]
+  }
+}
