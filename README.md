@@ -1,5 +1,15 @@
 # CLI Treasure Hunt 🏴‍☠️💎
-*AI-orchestrated cybersecurity training through gamified digital forensics challenges* 
+*AI-orchestrated cybersecurity training through gamified digital forensics challenges*
+
+![CLI Treasure Hunt](arc-head.png)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Gemini CLI](https://img.shields.io/badge/Gemini-CLI%20Compatible-blue.svg)](https://github.com/google-gemini/cli)
+[![AI Agents](https://img.shields.io/badge/AI-Agents%20Powered-green.svg)](https://github.com/yourusername/cli-treasure-hunt)
+[![Built with AI Tinkerers](https://img.shields.io/badge/Built%20with-AI%20Tinkerers-purple.svg)](https://nyc.aitinkerers.org/p/ai-tinkerers-x-google-gemini-cli-buildathon)
+[![Buildathon NYC 2025](https://img.shields.io/badge/Buildathon-NYC%202025-orange.svg)](https://nyc.aitinkerers.org/)
+[![Digital Forensics](https://img.shields.io/badge/Skills-Digital%20Forensics-red.svg)](https://github.com/yourusername/cli-treasure-hunt)
+[![SOC Training](https://img.shields.io/badge/Training-SOC%20Analysts-teal.svg)](https://github.com/yourusername/cli-treasure-hunt) 
 
 CLI Treasure Hunt is an innovative game where AI agents create and solve multi-step      
 digital puzzles hidden across various file types and data sources. Players develop critical skills in log analysis, steganography detection, pattern recognition, and forensic investigation - all while having fun!
@@ -59,13 +69,6 @@ cd challenges/challenge123456/
 
 **Infinite Replayability**: 30 distinct challenge subtypes (6 per investigation domain) ensure virtually unlimited unique scenarios while maintaining educational authenticity.
 
-## What's Next
-- **Enterprise SOC Training Platform**: Subscription service for corporate cybersecurity teams
-- **Themed Investigation Scenarios**: Financial fraud, insider threats, compliance auditing
-- **SIEM Tool Integration**: Direct connection to Splunk, ELK Stack, and other enterprise tools
-- **Certification Pathways**: Validated skill assessments leading to professional credentials
-- **Multi-Player Collaboration**: Team-based investigation challenges for security operations centers
-
 ---
 
 **Tech Stack**: Gemini CLI, bash/shell scripting, JSON/CSV processing, standard UNIX tools  
@@ -74,6 +77,28 @@ cd challenges/challenge123456/
 **Business Impact**: 70% reduction in training time, 80% increase in practical skill retention
 
 *Transform your investigation skills through AI-generated treasure hunts that mirror real-world cybersecurity challenges! 🔍💎*
+
+---
+
+## 🚨 Known Issues
+
+- **Player Mechanics**: Current system lacks progressive difficulty scaling and skill-based challenge adaptation
+- **Human-in-the-Loop**: Limited interactive guidance during investigation - players can get stuck without hints escalation
+- **Data Leakage**: Potential information spillover between challenge creation and solving phases in single CLI session
+- **Agent Capabilities**: Challenge agents cannot execute code directly - rely on human implementation of generated templates
+- **Verification Gaps**: Solutions may have multiple valid paths that verification script doesn't recognize
+- **Tool Dependencies**: Advanced challenges require external tools (exiftool, jq) that may not be available on all systems
+
+## 🔮 Future Work
+
+- **Adaptive Difficulty Engine**: Dynamic challenge scaling based on player performance and skill progression
+- **Interactive Hint System**: Contextual guidance escalation with multi-level hint revelation
+- **Isolated Agent Execution**: Sandboxed environments for direct agent code execution and file generation
+- **Multiplayer Collaboration**: Team-based investigation scenarios for SOC training environments
+- **Enterprise SIEM Integration**: Direct connection to Splunk, ELK Stack, and corporate security tools
+- **Certification Pathways**: Validated skill assessments leading to industry-recognized credentials
+- **Challenge Marketplace**: Community-driven puzzle sharing and custom scenario development
+- **Real-time Mentorship**: AI coaches providing personalized investigation guidance and feedback
 
 ## 🎮 Game Architecture
 
