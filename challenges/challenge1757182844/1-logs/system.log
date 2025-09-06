@@ -1,0 +1,10 @@
+<14>Sep 06 11:59:00 my-server cron[1234]: (root) CMD (   /usr/lib/cron/cron-hourly)
+<182>Sep 06 12:00:00 my-server kernel: a process started
+<22>Sep 06 12:00:15 my-server systemd[1]: Starting Clean php session files...
+<78>Sep 06 12:00:30 my-server dbus-daemon[567]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.12' (uid=0 pid=543 comm="/usr/sbin/sshd -D " label="unconfined")
+<6>Sep 06 12:01:00 my-server kernel: another process started
+<134>Sep 06 12:01:15 my-server systemd[1]: Started Daily apt download activities.
+<174>Sep 06 12:02:00 my-server kernel: a third process started
+<86>Sep 06 12:02:30 my-server anacron[1203]: Job `cron.daily' terminated
+<38>Sep 06 12:03:00 my-server kernel: a fourth process started
+<13>Sep 06 12:03:45 my-server ntpd[1024]: Soliciting pool server 192.168.1.1

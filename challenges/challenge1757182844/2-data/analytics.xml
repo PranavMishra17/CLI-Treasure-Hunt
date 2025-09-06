@@ -1,0 +1,10 @@
+<analytics>
+  <metric>
+    <name>page_views</name>
+    <value>10000</value>
+  </metric>
+  <metric>
+    <name>unique_visitors</name>
+    <value>5000</value>
+  </metric>
+</analytics>
