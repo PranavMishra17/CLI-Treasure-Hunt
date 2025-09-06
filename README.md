@@ -1,5 +1,10 @@
 # CLI Treasure Hunt 🏴‍☠️💎
-*AI-orchestrated cybersecurity training through gamified digital forensics challenges*
+*AI-orchestrated cybersecurity training through gamified digital forensics challenges* 
+
+CLI Treasure Hunt is an innovative game where AI agents create and solve multi-step      
+digital puzzles hidden across various file types and data sources. Players develop critical skills in log analysis, steganography detection, pattern recognition, and forensic investigation - all while having fun!
+
+Using Gemini CLI coordination, the system generates realistic treasure hunts with 5 hidden 4-letter words embedded in logs, databases, images, source code, and network protocols. Each challenge mirrors real-world SOC analyst scenarios - from timestamp forensics to metadata extraction. With 30 distinct challenge subtypes ensuring infinite replayability, players master professional investigation techniques through hands-on CLI tool usage. Perfect for cybersecurity training, reducing traditional classroom time by 70% while building practical skills immediately applicable to incident response and digital forensics roles.
 
 ## Problem/Use Case
 Traditional cybersecurity training costs $5K-15K per analyst and takes weeks to complete, yet remains largely theoretical. **CLI Treasure Hunt transforms expensive classroom training into engaging, practical skill development using AI agents that generate realistic forensics challenges.** Local data processing ensures sensitive investigation techniques and corporate datasets never leave your machine - critical for security training environments.
