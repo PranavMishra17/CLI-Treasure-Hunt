@@ -1,7 +1,7 @@
 # CLI Treasure Hunt 🏴‍☠️💎
 *AI-orchestrated cybersecurity training through gamified digital forensics challenges*
 
-![CLI Treasure Hunt](arc-head.png)
+![CLI Treasure Hunt](head.png)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Gemini CLI](https://img.shields.io/badge/Gemini-CLI%20Compatible-blue.svg)](https://github.com/google-gemini/cli)
